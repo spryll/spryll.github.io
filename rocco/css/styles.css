@@ -1,0 +1,148 @@
+body { 
+    background:url(../img/steak1.png) top no-repeat;
+    background-attachment: fixed; 
+    background-size: /*contain*/ cover;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-empty {
+    display: flex;
+    height: 25px;
+    flex-wrap: wrap;
+}
+.row-media {
+    display: flex;
+    height: 500px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.col-2-fill {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+.col-2 {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+.col-3 {
+    flex-grow: 3;
+    flex-basis: 0;
+}
+.col-6 {
+    flex-grow: 6;
+    flex-basis: 0;
+}
+.cursive {
+    font-family: 'Homemade Apple';
+    font-size: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.sign-mid {
+    font-family: 'Unna', serif;
+    font-size: 80px;
+    letter-spacing: 10px;
+    color: #c19606;
+}
+.sign-side {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #c19606;
+    padding-top: 15px;
+}
+.left {
+    padding-right: 10px;
+}
+.right {
+    padding-left: 5px;
+}
+.main{
+    font-weight: 900;
+    align-items: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nothide{
+    display: none;
+    visibility: hidden;
+}
+.brd-rgt {
+    border-right: 1px solid white;
+}
+.brd-bot {
+    border-bottom: 1px solid white;
+}
+.brd-top {
+    border-top: 1px solid white;
+}
+.brd-hvy {
+    border-width: 4px;
+}
+/*div.hov:hover, div.hov:hover > div {
+    color: #c19606;
+}*/
+a.hov:hover > div {
+    color: #c19606;
+}
+header {
+    background-color: white;
+    justify-content: center;
+}
+nav {
+    background-color: white;
+    justify-content: center;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+a:visited, a:link, a:active {
+    text-decoration: none;
+    color: white;
+}
+a.left:visited, a.left:link, a.left:active {
+    text-decoration: none;
+    color: black;
+}
+a:hover, a.left:hover {
+    text-decoration: none;
+    color: #c19606;
+}
+
+div {
+    font-family: 'Amatic SC';
+    font-size: 65px;
+    font-weight: 400;
+    color: white;
+}
+.tool {
+    position: relative;
+    text-align: center;
+}
+.tool .tip {
+    display: none;
+    min-width: 170px;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    background-color:#c19606;
+    font-size: 20px;
+    border-radius: 8px;
+    position: absolute;
+}
+.tool:hover .tip {
+    display: inline;
+    color:white;
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 623px) and (max-width: 1016px){
+    .col-2-fill {
+        flex-grow: 0;
+    }
+}

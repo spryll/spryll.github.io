@@ -1,0 +1,65 @@
+body { 
+    background-color: white;
+    background-size: cover;
+    background-image: none;
+}
+.col-2-fill {
+    flex-grow: 0;
+}
+.hide {
+    display: none;
+    visibility: hidden;
+}
+.nothide {
+    display: block;
+    visibility: visible;    
+}
+.row-empty {
+    display: flex;
+    height: 0px;
+    flex-wrap: wrap;
+}
+.brd-rgt {
+    border-style: none;
+}
+.brd-bot {
+    border-style: none;
+}
+.brd-top {
+    border-style: none;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#lunch {
+    background:url(../img/breakfast.jpg);
+    background-size: 100%;
+}
+#dinner {
+    background:url(../img/steak1.png);
+    background-size: 100%;
+}
+#late-night {
+    background:url(../img/late_night.png);
+    background-size: 100%;
+}
+#drinks {
+    background:url(../img/drinks.jpg);
+    background-size: 100%;
+}
+#reservations {
+    background:url(../img/reservations.jpg);
+    background-size: 100%;
+}
+#contact-us {
+    background:url(../img/contact-us.png);
+    background-size: 100%;
+}

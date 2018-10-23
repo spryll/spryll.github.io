@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bilbo|Italianno" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/drink.css">
+    <script src="scr/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var divs = document.querySelectorAll('.' + window.location.href.split('?')[1]);
+            [].forEach.call(divs,function(div) {div.style.display = 'unset';});
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="index">
+            <div class="sign top">osteria</div>
+            <div class="sign-mid">rocco</div>
+            <div class="sign bottom">apizza</div>
+        </a>
+    </header>
+    <div class="all cocktails center">
+        <h2>cocktails italiano</h2>
+        <p>bellini originale-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prosecco, white peach juice . . . 9</p>
+        <p>bellini amarena-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prosecco, amarena cherry . . . 9</p>
+        <p>blood orange martini-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blood orange juice, vodka, basil . . . 10</p>
+        <p>sorrento-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;st.germain, limoncello, prosecco . . . 10</p>
+        <p>cambriare-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spiced rum, grapefruit liquer, ginger beer . . . 10</p>
+        <p>tonica-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;malfy italian blood orange gin, aqua tonica, blood orange juice . . . 10</p>
+        <p>rosemarino-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gin, lambrusco, lime, rosemary syrup . . . 10</p>
+        <p>negroni-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gin, lambrusco, lime, rosemary syrup . . . 10</p>
+        <p>negroni rocco-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;classic negroni, orange, sparkling water . . . 10</p>
+        <p>americano-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;campari, sweet vermouth, sparkling water . . . 10</p>
+    </div>
+    <div class="all birra center">
+        <h2>birra</h2>
+        <p>peroni / lombardia, italy . . . 6</p>
+        <p>moretti / friuli, italy . . . 6</p>
+        <p>la rossa / friuli, italy . . . 7</p>
+        <p>follina follinetta / veneto, italy . . . 9</p>
+        <p>follina doppio malto/ veneto, italy . . . 9</p>
+        <p>follina bionda/ veneto, italy . . . 9</p>
+    </div>
+    <div class="all bevanda-gassata">
+        <h2>bevanda-gassata</h2>
+    </div>
+    <div class="all wines">
+        <h2>wines</h2>
+        <div class="type">bianco</div>
+        <p>soave / pieropan / garganega / veneto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11 / 40</p>
+        <p>pinot grigio / torre di luna / pinot grigio / veneto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 / 28</p>
+        <p>chardonnay / tiefenbrunner / chardonnay / alto adige  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 / 36 </p>
+        <p>semi dry riesling / boundry breaks / riesling / finger lakes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9 / 32 </p>
+        <p>moscato di asti / franco amaroso / moscato / piedmont &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 / 28</p>
+        <p><span class="rosso">rosato</span> purato / santa tresa / nero d'avola / sicily &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9 / 32</p>
+        <div class="type rosso">rosso</div>
+        <p>chianti classico / lamole di lamole / sangiovese / tuscany &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 / 46</p>
+        <p>"albe" barolo / g.d.vajra / nebbiolo / piedmont &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20 / 75</p>
+        <p>lacrima di morro di alba / conti di buscareto / lacrima / marche &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9 / 34</p>
+        <p>dolcetto di alba / carlo giacosa / dolcetto / piemonte &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11 / 40</p>
+        <p>lambrusco grasparossa / barbolini / lambrusco / emilia romanga &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 / 38</p>
+        <p>primitivo / masseria altemura / primitivo / puglia &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9 / 32</p>
+        <div class="type riserva">riserva</div>
+        <p>barolo 09 / marchesi di barolo / nebbiolo / piedmont &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;95</p>
+        <p>brunello di montalcino 11 / caparzo / sangiovese grosso / tuscany &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 125 </p>
+        <p>provincia di pavia rosso 05 / azienda agricola barbacarlo / croatina-uva rara- ughetta / lombardia &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 70 </p>
+        <p>"cumaro" rosso conero riserva 12 / umani ronchi / montepulciano marche &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 70 </p>
+        <p>inferi 04 / marramiero / montepulciano / abbruzzo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95 </p>
+        <p>amarone la stropa 08 / monto dall ora / classic corvina blend / veneto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 150 </p>
+        <p>barolo 10 / fontanafredda / nebbiolo / piemonte &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 180 (1.5) </p>
+    </div>
+</body>
+</html>

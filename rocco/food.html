@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/food.css">
+    <script src="scr/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var divs = document.querySelectorAll('.' + window.location.href.split('?')[1]);
+            [].forEach.call(divs,function(div) {div.style.display = 'unset';});
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="index">
+            <div class="sign top">osteria</div>
+            <div class="sign-mid">rocco</div>
+            <div class="sign bottom">apizza</div>
+        </a>
+    </header>
+    <div class="lunch dinner">
+        <h2>antipasto</h2>
+        <div class="row">
+            <div class="item">
+                <div class="name">garlic knots</div>
+                <div>herbs and pecorino</div>
+                <div>5</div>
+            </div>
+            <div class="item">
+                <div class="name">arancini</div>
+                <div>risotto fritters/tomato sauce</div>
+                <div>8</div>
+            </div>
+            <div class="item">
+                <div class="name">olive calde da castelvetrano</div>
+                <div>warm sicilian green olives</div>
+                <div>5</div>
+            </div>
+            <div class="item">
+                <div class="name">polpette</div>
+                <div>meatballs/garlic knot</div>
+                <div>9</div>
+            </div>
+            <div class="item">
+                <div class="name">polpo</div>
+                <div>grilled octopus/green sauce</div>
+                <div>13</div>
+            </div>
+            <div class="item">
+                <div class="name">mozzarella</div>
+                <div>fried mozzarella/tomato sauce</div>
+                <div>9</div>
+            </div>
+            <div class="item">
+                <div class="name">ricotta</div>
+                <div>housemade ricotta/</div>
+                <div>charred bread/olive oil</div>
+                <div>12</div>
+            </div>
+        </div>
+    </div>
+    <div class="lunch dinner late-night">
+        <h2>insalate</h2>
+        <div class="row">
+            <div class="item">
+                <div class="name">insalata italiano "rocco"</div>
+                <div>peppers/salumi/olives/provolone</div>
+                <div>10</div>
+            </div>
+            <div class="item">
+                <div class="name">insalata "caesar cardini"</div>
+                <div>romaine/garlic-anchovy</div>
+                <div>9</div>
+            </div>
+            <div class="item">
+                <div class="name">insalata tricolore</div>
+                <div>escarole/frisee/radicchio/</div>
+                <div>red wine vinaigrette</div>
+                <div>8</div>
+            </div>
+            <div class="item">
+                <div class="name">insalata di verdure estive con budino di pecorino</div>
+                <div>mixed lettuces/local vegetables/warm pecorino budino</div>
+                <div>10</div>
+            </div>
+        </div>
+    </div>
+    <div class="dinner">
+        <h2>pasta</h2>
+        <div class="row">
+            <div class="item">
+                <div class="name">linguini alle vongole</div>
+                <div>linguini/white clam sauce/parsley</div>
+                <div>22</div>
+            </div>
+            <div class="item">
+                <div class="name">butatini puttanesca in cartoccio</div>
+                <div>thick spaghetti prostitutes style, baked in parchment</div>
+                <div>18</div>
+            </div>    
+            <div class="item">
+                <div class="name">pasta con polpette</div>
+                <div>artisan pasta/meatballs/tomato sauce</div>
+                <div>19</div>
+            </div>
+            <div class="item">
+                <div class="name">gnocchi alla romana</div>
+                <div>semolina gnocchi/butter/roasted tomato</div>
+                <div>16</div>
+            </div>    
+            <div class="item">
+                <div class="name">lasagne alla pizzaiolo</div>
+                <div>pizza maker's style-tomato/balsamella/three cheeses/basil</div>
+                <div>19</div>
+            </div>
+        </div>
+    </div>
+    <div class="lunch dinner late-night">
+        <h2>pizze</h2>   
+        <div class="row">
+            <div class="item">
+                <div class="name">margherita</div>
+                <div>tomato/basil/mozzarella</div>
+                <div>10</div>
+            </div>
+            <div class="item">
+                <div class="name">paulie g.</div>
+                <div>tomato/sopressata/spicy honey</div>
+                <div>13</div>
+            </div>
+            <div class="item">
+                <div class="name">bandiera</div>
+                <div>tomato/ricotta/spinach</div>
+                <div>13</div>
+            </div>
+            <div class="item">
+                <div class="name">peperoni pepperoni</div>
+                <div>sweet peppers/pepperoni/basil</div>
+                <div>14</div>
+            </div>
+            <div class="item">
+                <div class="name">napoletana</div>
+                <div>tomato/anchovy/oregano</div>
+                <div>13</div>
+            </div>
+            <div class="item">
+                <div class="name">funghi e fontina</div>
+                <div>mushroom/fontina/truffle</div>
+                <div>15</div>
+            </div>
+            <div class="item">
+                <div class="name">vongole</div>
+                <div>clams/pancetta/parsley/chili</div>
+                <div>15</div>
+            </div>
+            <div class="item">
+                <div class="name">calabrese</div>
+                <div>ricotta/calabrian olives and chilis</div>
+                <div>12</div>
+            </div>
+            <div class="item">
+                <div class="name">spinachi</div>
+                <div>spinach/garlic/goat cheese</div>
+                <div>14</div>
+            </div>
+            <div class="item">
+                <div class="name">gringo</div>
+                <div>tomato/basil/mozzarella/pepperoni</div>
+                <div>13</div>
+            </div>
+            <div class="item">
+                <div class="name">macelliano</div>
+                <div>butcher's choice of meat</div>
+            </div>
+        </div>
+    </div>
+    <div class="dinner">
+        <h2>piatti</h2>
+        <div class="row">
+            <div class="item">
+                <div class="name">ribeye d'agnello affettato con mellanzane "parmigiano"</div>
+                <div>sliced lamb ribeye/eggplant/fried mozzarella</div>
+                <div class="name">34</div>
+            </div>
+            <div class="item">
+                <div class="name">bistecca del giorno</div>
+                <div>todays cut/roasted potatoes</div>
+                <div>mp</div>
+            </div>
+            <div class="item">
+                <div class="name">maiale cotto a fuoco lento</div>
+                <div>slow-cooked pork/sauteed greens/polenta</div>
+                <div>19</div>
+            </div>
+            <div class="item">
+                <div class="name">braciola di maiale affumicatta con mostarda</div>
+                <div>smoked pork rib chop/grilled romaine/fruit mustard</div>
+                <div>25</div>
+            </div>
+        </div>
+    </div>
+    <div class="lunch dinner">
+        <h2 id="red">contorini</h2>
+        <div class="row">
+            <div class="item">
+                <div class="name">polpette</div>
+                <div>meatballs</div>
+                <div>5</div>
+            </div>
+            <div class="item">
+                <div class="name">verdure con aglio</div>
+                <div>sauteed greens/chili/garlic</div>
+                <div>7</div>
+            </div>
+            <div class="item">
+                <div class="name">linguini e peperoni</div>
+                <div>linguini/sweet peppers</div>
+                <div>8</div>
+            </div>
+            <div class="item">
+                <div class="name">polenta fritte</div>
+                <div>fried polenta</div>
+                <div>5</div>
+            </div>
+            <div class="item">
+                <div class="name">patate arrosto</div>
+                <div>roasted potatoes</div>
+                <div>6</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
